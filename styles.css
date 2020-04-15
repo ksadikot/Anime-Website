@@ -1,0 +1,46 @@
+h3 {
+    color: rgb(0, 38, 255);
+}
+
+.anime-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.anime-image {
+    position: relative;
+}
+
+.anime-img-background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+
+
+.logo-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 150px;
+    padding-right: 100px;
+    width: 50%;
+    margin-bottom: 20px;
+    opacity: 0;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+.logo-transition {
+    transition: 1s;
+    opacity: 1;
+}
